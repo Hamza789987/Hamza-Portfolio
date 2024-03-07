@@ -5,7 +5,7 @@ html {
   height: 100%;
 }
 body {
-  background-color: #f2f5f5;
+  background: linear-gradient(45deg, #103ce7 20%, #64e9ff);
   display: grid;
   grid-template-areas:
     "header header"
@@ -26,6 +26,7 @@ header {
 }
 nav {
   grid-area: nav;
+  width: 150px;
   background-color: #565360;
   padding: 5px;
   display: grid;
@@ -61,9 +62,10 @@ nav a {
 .location {
   grid-area: location;
   background-color: #37b9f1;
-  padding: 5px;
   font-size: 2rem;
   color: #565360;
+  width: 500px;
+  border-radius: 10px;
   padding: 20px;
 }
 .location > span {
